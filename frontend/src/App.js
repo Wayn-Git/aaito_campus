@@ -197,9 +197,9 @@ const LoadingScreen = ({ finishLoading }) => {
         transition={{ duration: 1, ease: "easeOut" }}
         className="flex items-center gap-4 mb-8"
       >
-        <img className="h-20 w-auto" src="/logo.png" alt="AAItoai Logo" />
+        <img className="h-20 w-auto" src="/logo.png" alt="AAItoAI Logo" />
         <span className="font-bold text-4xl text-gray-800 tracking-tight">
-          AAItoai
+          AAItoAI
         </span>
       </motion.div>
 
@@ -267,9 +267,9 @@ const Navbar = () => {
             className="flex-shrink-0 flex items-center gap-3 cursor-pointer"
             onClick={(e) => handleNavClick(e, "home")}
           >
-            <img className="h-10 w-auto" src="/logo.png" alt="AAItoai" />
+            <img className="h-10 w-auto" src="/logo.png" alt="AAItoAI" />
             <span className="font-bold text-xl text-gray-900 tracking-tight">
-              AAItoai
+              AAItoAI
             </span>
           </div>
 
@@ -324,13 +324,13 @@ const Navbar = () => {
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
-                  className="block px-3 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-red-600 hover:bg-red-50 transition-colors"
+                  className="block px-3 py-3 rounded-[4px] text-base font-medium text-gray-700 hover:text-red-600 hover:bg-red-50 transition-colors"
                   onClick={(e) => handleNavClick(e, item.toLowerCase())}
                 >
                   {item}
                 </a>
               ))}
-              <button className="w-full mt-4 bg-red-600 text-white px-6 py-3 rounded-lg text-base font-semibold shadow-lg shadow-red-600/20">
+              <button className="w-full mt-4 bg-red-600 text-white px-6 py-3 rounded-[8px] text-base font-semibold shadow-lg shadow-red-600/20">
                 Get Started
               </button>
             </div>
@@ -380,7 +380,7 @@ const Hero = () => {
             >
               <span className="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white border border-gray-200 text-gray-600 shadow-sm backdrop-blur-sm">
                 <Heart className="w-4 h-4 mr-2 text-red-500 fill-current" />
-                Non-Profit Organization
+                AI Awareness Moment
               </span>
             </motion.div>
 
@@ -593,7 +593,7 @@ const About = () => {
             >
               <div className="absolute top-0 right-0 w-32 h-32 bg-red-100 rounded-bl-[100px] -mr-8 -mt-8 transition-transform group-hover:scale-110" />
               <blockquote className="italic text-gray-700 text-xl font-medium relative z-10 leading-relaxed">
-                "AAItoai transformed our community's understanding of
+                "AAItoAI transformed our community's understanding of
                 technology. Now our farmers use AI to optimize crops!"
               </blockquote>
               <div className="mt-8 flex items-center relative z-10">
@@ -755,7 +755,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2">
             {/* Contact Info Side */}
             <div className="p-12 lg:p-20 bg-gray-900 text-white flex flex-col justify-between relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-96 h-96 bg-red-600/20 rounded-full blur-3xl -mr-20 -mt-20"></div>
+              <div className="absolute top-0 right-0 w-96 h-96 bg-red-600/20 rounded-[8px] blur-3xl -mr-20 -mt-20"></div>
 
               <div className="relative z-10">
                 <h2 className="text-3xl font-extrabold mb-6">Get in Touch</h2>
@@ -769,7 +769,7 @@ const Contact = () => {
                     {
                       icon: <Mail className="h-6 w-6 text-red-500" />,
                       title: "Email Us",
-                      content: "contact@aaitoai.org",
+                      content: "contact@AAItoAI.org",
                     },
                     {
                       icon: <Phone className="h-6 w-6 text-red-500" />,
@@ -872,10 +872,10 @@ const Footer = () => {
               <img
                 className="h-8 w-auto grayscale brightness-200"
                 src="/logo.png"
-                alt="AAItoai"
+                alt="AAItoAI"
               />
               <span className="text-2xl font-bold text-white tracking-tight">
-                AAItoai
+                AAItoAI
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed max-w-sm">
@@ -940,7 +940,7 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-500">
-            &copy; 2025 AAItoai Association. All rights reserved.
+            &copy; 2025 AAItoAI Association. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             {["Facebook", "Twitter", "LinkedIn"].map((social) => (
